@@ -10,12 +10,12 @@
 		FC4DA471292CF314007BFE08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4DA470292CF314007BFE08 /* AppDelegate.swift */; };
 		FC4DA473292CF314007BFE08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4DA472292CF314007BFE08 /* SceneDelegate.swift */; };
 		FC4DA475292CF314007BFE08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4DA474292CF314007BFE08 /* ViewController.swift */; };
-		FC4DA478292CF314007BFE08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4DA476292CF314007BFE08 /* Main.storyboard */; };
-		FC4DA47A292CF316007BFE08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4DA479292CF316007BFE08 /* Assets.xcassets */; };
-		FC4DA47D292CF316007BFE08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4DA47B292CF316007BFE08 /* LaunchScreen.storyboard */; };
 		FC4DA488292CF316007BFE08 /* POCScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4DA487292CF316007BFE08 /* POCScrollViewTests.swift */; };
 		FC4DA492292CF316007BFE08 /* POCScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4DA491292CF316007BFE08 /* POCScrollViewUITests.swift */; };
 		FC4DA494292CF316007BFE08 /* POCScrollViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4DA493292CF316007BFE08 /* POCScrollViewUITestsLaunchTests.swift */; };
+		FC4DA4A5292E4A25007BFE08 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4DA4A4292E4A25007BFE08 /* CustomCollectionViewCell.swift */; };
+		FC4DA4A7292E5E0E007BFE08 /* CustomCollection2ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4DA4A6292E5E0E007BFE08 /* CustomCollection2ViewCell.swift */; };
+		FC4DA4AB292F984A007BFE08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4DA4AA292F984A007BFE08 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,15 +40,15 @@
 		FC4DA470292CF314007BFE08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC4DA472292CF314007BFE08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FC4DA474292CF314007BFE08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FC4DA477292CF314007BFE08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FC4DA479292CF316007BFE08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FC4DA47C292CF316007BFE08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC4DA47E292CF316007BFE08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC4DA483292CF316007BFE08 /* POCScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POCScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4DA487292CF316007BFE08 /* POCScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCScrollViewTests.swift; sourceTree = "<group>"; };
 		FC4DA48D292CF316007BFE08 /* POCScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POCScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4DA491292CF316007BFE08 /* POCScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCScrollViewUITests.swift; sourceTree = "<group>"; };
 		FC4DA493292CF316007BFE08 /* POCScrollViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCScrollViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FC4DA4A4292E4A25007BFE08 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC4DA4A6292E5E0E007BFE08 /* CustomCollection2ViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollection2ViewCell.swift; sourceTree = "<group>"; };
+		FC4DA4AA292F984A007BFE08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +102,10 @@
 				FC4DA470292CF314007BFE08 /* AppDelegate.swift */,
 				FC4DA472292CF314007BFE08 /* SceneDelegate.swift */,
 				FC4DA474292CF314007BFE08 /* ViewController.swift */,
-				FC4DA476292CF314007BFE08 /* Main.storyboard */,
-				FC4DA479292CF316007BFE08 /* Assets.xcassets */,
-				FC4DA47B292CF316007BFE08 /* LaunchScreen.storyboard */,
 				FC4DA47E292CF316007BFE08 /* Info.plist */,
+				FC4DA4A4292E4A25007BFE08 /* CustomCollectionViewCell.swift */,
+				FC4DA4AA292F984A007BFE08 /* Assets.xcassets */,
+				FC4DA4A6292E5E0E007BFE08 /* CustomCollection2ViewCell.swift */,
 			);
 			path = POCScrollView;
 			sourceTree = "<group>";
@@ -231,9 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC4DA47D292CF316007BFE08 /* LaunchScreen.storyboard in Resources */,
-				FC4DA47A292CF316007BFE08 /* Assets.xcassets in Resources */,
-				FC4DA478292CF314007BFE08 /* Main.storyboard in Resources */,
+				FC4DA4AB292F984A007BFE08 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +259,8 @@
 				FC4DA475292CF314007BFE08 /* ViewController.swift in Sources */,
 				FC4DA471292CF314007BFE08 /* AppDelegate.swift in Sources */,
 				FC4DA473292CF314007BFE08 /* SceneDelegate.swift in Sources */,
+				FC4DA4A7292E5E0E007BFE08 /* CustomCollection2ViewCell.swift in Sources */,
+				FC4DA4A5292E4A25007BFE08 /* CustomCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +295,6 @@
 			targetProxy = FC4DA48E292CF316007BFE08 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		FC4DA476292CF314007BFE08 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC4DA477292CF314007BFE08 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FC4DA47B292CF316007BFE08 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC4DA47C292CF316007BFE08 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FC4DA495292CF316007BFE08 /* Debug */ = {
@@ -442,7 +423,6 @@
 				INFOPLIST_FILE = POCScrollView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +450,6 @@
 				INFOPLIST_FILE = POCScrollView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
